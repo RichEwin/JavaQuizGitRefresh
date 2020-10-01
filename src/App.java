@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args) {
@@ -12,5 +14,20 @@ public class App {
                 new Question(q1, "a"),
                 new Question(q2, "b")
         };
+    }
+
+    public static void takeTest(Question [] questions) {
+        int score = 0;
+
+        Scanner input = new Scanner(System.in);
+
+        for(int i = 0; i < questions.length; i++) {
+            System.out.println(questions[i].prompt);
+            String answer = input.nextLine();
+            if(answer.equals(questions[i].answer)) {
+                score++;
+            }
+        }
+        System.out.println("You scored " + score + "/" + questions.length);
     }
 }
