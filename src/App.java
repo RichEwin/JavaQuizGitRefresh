@@ -11,7 +11,7 @@ public class App {
                     + "(a)orange\n(b)yellow\n(c)brown";
 
         String q3 = "What color is a pink lady apple?\n"
-                    + "(a)purple\n(b)red\n(c)black";
+                    + "(a)purplehaze\n(b)red\n(c)black";
 
 
         Question [] questions = {
