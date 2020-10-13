@@ -6,7 +6,7 @@ public class App {
 
         String q1 = "What color is the sky?\n" + "(a)blue\n(b)green\n(c)psychedelic";
 
-        String q2 = "What color is a banana?\n" + "(a)orange\n(b)yellow\n(c)brown";
+        String q2 = "What color is a banana?\n" + "(a)orange\n(b)mellowyellow\n(c)brown";
 
         String q3 = "What color is a pink lady apple?\n" + "(a)purple\n(b)red\n(c)black";
 
