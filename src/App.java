@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        String q1 = "What color is the sky?\n" + "(a)blue\n(b)green\n(c)psychedelic";
+        String q1 = "What color is the sky?\n" + "(a)blue\n(b)leangreen\n(c)psychedelic";
 
         String q2 = "What color is a banana?\n" + "(a)orange\n(b)mellowyellow\n(c)brown";
 
