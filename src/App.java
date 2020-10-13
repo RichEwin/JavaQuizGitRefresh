@@ -8,7 +8,7 @@ public class App {
 
         String q2 = "What color is a banana?\n" + "(a)orange\n(b)yellow\n(c)brown";
 
-        String q3 = "What color is a pink lady apple?\n" + "(a)purplehaze\n(b)red\n(c)black";
+        String q3 = "What color is a pink lady apple?\n" + "(a)purple\n(b)red\n(c)black";
 
         Question[] questions = { new Question(q1, "a"), new Question(q2, "b"), new Question(q3, "a") };
     }
