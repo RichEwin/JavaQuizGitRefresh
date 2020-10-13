@@ -10,7 +10,7 @@ public class App {
         String q2 = "What color is a banana?\n"
                     + "(a)orange\n(b)yellow\n(c)brown";
 
-        String q3 = "What color is a pink lady apple?\n"
+        String q3 = "What color is a tasty pink lady apple?\n"
                     + "(a)purplehaze\n(b)red\n(c)black";
 
 
